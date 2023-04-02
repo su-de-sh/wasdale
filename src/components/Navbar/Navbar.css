@@ -1,27 +1,26 @@
+/* Default styles */
+
 .navbar {
   margin: 0;
-  padding: 0;
-  height: 100px;
+  padding: 0.63rem 1.88rem;
+  display: flex;
 
-  display: grid;
-  grid-template-columns: 1fr 3fr 1.2fr;
   align-items: center;
   background-color: #873e23;
 }
 
 .navbar li {
   list-style: none;
-
-  padding: 10px;
+  padding: 0.63rem;
 }
 
 .menu {
   color: #ddddbb;
-  /* font-size: 1px; */
-  margin-left: 20px;
+  flex-basis: 31%;
+
   align-items: center;
   display: flex;
-  gap: 0.5rem;
+  gap: 8px;
 }
 
 .title {
@@ -31,14 +30,15 @@
   text-transform: uppercase;
   font-family: "Playfair Display", sans-serif;
   color: #ddddbb;
+  flex-basis: 33.33%;
 }
 .title h1 {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 900;
-  line-height: 2rem;
+  line-height: 32px;
 }
 .title h5 {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: normal;
 }
 .title * {
@@ -48,17 +48,53 @@
 .interactions {
   display: flex;
   align-items: center;
-  gap: 10%;
+
   color: #ddddbb;
-  font-size: 1.75rem;
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.interactions li a {
+  text-decoration: none;
+  color: #ddddbb;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.interactions a:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
 .book {
-  font-size: 0.75rem;
+  font-size: 12px;
   background-color: #00a189;
   text-align: center;
-  padding: 0.63rem 1.25rem;
-  border-radius: 40px;
+  padding: 10.08px 20px;
+  border-radius: 2.5rem;
   text-transform: uppercase;
   font-family: "montserrat", sans-serif;
+  cursor: pointer;
+  border: 0.13rem solid #ddddbb;
+  margin-left: 1.88rem;
+}
+
+/* Media queries for responsive design */
+
+/* Tablets */
+@media (max-width: 940px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .title {
+    align-items: flex-start;
+  }
+  .menu {
+    order: 2;
+    flex-basis: 0%;
+  }
+  .interactions {
+    display: none;
+  }
 }
