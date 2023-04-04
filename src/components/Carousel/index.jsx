@@ -11,6 +11,7 @@ const CarouselComponent = ({ slides }) => {
       infiniteLoop={true}
       dynamicHeight={true}
       transitionTime={1000}
+      stopOnHover={false}
     >
       {slides.map((slide) => {
         return <div key={slide.id}>{slide.content}</div>;
