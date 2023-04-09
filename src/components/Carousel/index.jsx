@@ -9,7 +9,6 @@ const CarouselComponent = ({ slides }) => {
       autoPlay={true}
       interval={3000}
       infiniteLoop={true}
-      dynamicHeight={true}
       transitionTime={1000}
       stopOnHover={false}
     >

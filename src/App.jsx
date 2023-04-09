@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import CarouselComponent from "./components/Carousel";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   const slides = [
@@ -9,7 +10,7 @@ function App() {
 
       content: (
         <div>
-          <img src="/src/assets/images/bg2.jpeg" alt="img" />
+          <img src="/src/assets/images/5.jpg" alt="img" />
         </div>
       ), // this will be replaced by the actual slide component
     },
@@ -17,7 +18,7 @@ function App() {
       id: 2,
       content: (
         <div>
-          <img src="/src/assets/images/room.jpeg" alt="img" />
+          <img src="/src/assets/images/1.jpg" alt="img" />
         </div>
       ),
     },
@@ -25,7 +26,7 @@ function App() {
       id: 3,
       content: (
         <div>
-          <img src="/src/assets/images/dining.jpeg" alt="img" />
+          <img src="/src/assets/images/6.jpg" alt="img" />
         </div>
       ),
     },
@@ -33,7 +34,7 @@ function App() {
       id: 4,
       content: (
         <div>
-          <img src="/src/assets/images/bg3.jpeg" alt="img" />
+          <img src="/src/assets/images/5.jpg" alt="img" />
         </div>
       ),
     },
@@ -43,6 +44,7 @@ function App() {
     <div className="App">
       <Navbar />
       <CarouselComponent slides={slides} />
+      <AboutUs />
     </div>
   );
 }

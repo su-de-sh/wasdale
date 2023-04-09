@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin-top: 4rem;
+  padding: 0 1rem;
+}
+
+h5 {
+  font-size: 0.7rem;
+
+  font-family: "Monsterat", sans-serif;
+  color: #8a8755;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "monsterat", sans-serif;
+  margin: 2rem 0;
+  width: 50%;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Lora", serif;
+  margin-bottom: 1rem;
+  width: 70%;
+  opacity: 50%;
+  text-align: center;
+}
