@@ -17,39 +17,39 @@ const Navbar = () => {
         </span>
         <ul className="interactions">
           <li>
-            <a href="http://" >
+            <a href="#" >
              Home
             </a>
           </li>
           <li>
-            <a href="http://" >
+            <a href="#" >
              About
             </a>
           </li>
           <li>
-            <a href="http://" >
+            <a href="#" >
              Menu
             </a>
           </li>
           <li>
-            <a href="http://" >
+            <a href="#" >
              Gallery
             </a>
           </li>
           <li>
-            <a href="http://" >
+            <a href="#" >
              Rooms
             </a>
           </li>
 
           <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <Icon icon="ri:instagram-fill" />
             </a>
           </li>
 
           <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="#" target="_blank" rel="noopener noreferrer">
               <Icon icon="ant-design:twitter-square-filled" />
             </a>
           </li>
