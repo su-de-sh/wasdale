@@ -17,8 +17,28 @@ const Navbar = () => {
         </span>
         <ul className="interactions">
           <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              <Icon icon="ri:facebook-box-fill" />
+            <a href="http://" >
+             Home
+            </a>
+          </li>
+          <li>
+            <a href="http://" >
+             About
+            </a>
+          </li>
+          <li>
+            <a href="http://" >
+             Menu
+            </a>
+          </li>
+          <li>
+            <a href="http://" >
+             Gallery
+            </a>
+          </li>
+          <li>
+            <a href="http://" >
+             Rooms
             </a>
           </li>
 

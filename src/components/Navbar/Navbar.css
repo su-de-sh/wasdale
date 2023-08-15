@@ -19,11 +19,12 @@
 }
 
 .menu {
+  display: none;
   color: #ddddbb;
   flex-basis: 31%;
 
   align-items: center;
-  display: flex;
+
   gap: 8px;
 }
 
@@ -34,7 +35,7 @@
   text-transform: uppercase;
   font-family: "Playfair Display", sans-serif;
   color: #ddddbb;
-  flex-basis: 33.33%;
+ 
 }
 .title h1 {
   font-size: 32px;
@@ -64,6 +65,7 @@
   display: flex;
   align-items: center;
   flex-flow: row wrap;
+  font-size: 1rem;
 }
 
 .interactions a:hover {
@@ -97,6 +99,7 @@
   .menu {
     order: 2;
     flex-basis: 0%;
+    display: flex;
   }
   .interactions {
     display: none;
